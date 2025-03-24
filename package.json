@@ -2,9 +2,10 @@
   "name": "bootstrap-assignment",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "start": "lite-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": { 
+  "dev": "lite-server--baseDir=\"public\"",
+  "watch": "sass --watch src/scss:public/assets/css", "start": "concurrently\"npm run watch\"\"npm run dev\"", 
+  "test": "echo \"Error: no test specified\" && exit 1" 
   },
   "keywords": [],
   "author": "",

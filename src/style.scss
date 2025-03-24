@@ -1,35 +1,46 @@
 // Variables
+$primary-color: #4a90e2;
+$bg-dark: #1d1d27;
+$text-light: #ffffff;
 
-$primary-color1: #39dc39; 
-// overall background
-$primary-color2: #363740;
-// naviagation
-$primary-color3: #FFFFFF;
-// bounding box color
-
-
-$primary-font: muli, sans-serif;
-// primary font
-
-$font-color1: black;
-// basic color
-$font-color2: #9FA2B4;
-// subheading
-$font-color3: #3751FF;
-// highlighted color
-$font-color4: #A4A6B3;
-// nav font color
-
-
-#body {
-    background-color: $primary-color1;
+// Sidebar Styling
+.sidebar {
+  height: 100vh;
+  background: $bg-dark;
+  padding: 20px;
+  .nav-link {
+    color: $text-light;
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
     }
+  }
+}
 
-    #h1 {
-        color: $font-color2;
-        }
+// Cards Styling
+.card {
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  .card-body {
+    h6 {
+      font-size: 14px;
+      color: gray;
+    }
+    h2 {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}
+.overdue {
+  background: rgba(255, 99, 132, 0.1);
+  color: red;
+}
 
-        #h2 {
-            color: $font-color2;
-            }
-
+// Chart Container
+.chart-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
