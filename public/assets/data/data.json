@@ -1,0 +1,23 @@
+{
+    "overviewCards": [
+      { "label": "Unresolved", "count": 72 },
+      { "label": "Overdue", "count": 19 },
+      { "label": "Open", "count": 55 },
+      { "label": "On Hold", "count": 38 }
+    ],
+    "infoCards": [
+      { "label": "Resolved", "count": 87 },
+      { "label": "New Tickets", "count": 12 }
+    ],
+    "tickets": [
+      { "name": "Waiting on Feature Request", "number": 4011 },
+      { "name": "Awaiting Customer Response", "number": 988 },
+      { "name": "Awaiting Developer Fix", "number": 720 }
+    ],
+    "tasks": [
+      { "title": "Finalize Q2 Report", "status": "Urgent" },
+      { "title": "Fix Login Issue", "status": "New" },
+      { "title": "Clean UI components", "status": "Default" }
+    ]
+  }
+  
